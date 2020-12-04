@@ -1,0 +1,32 @@
+<view style="height:18vh;position: relative;" class="cu-card margin article {{isCard?'no-card':''}}">
+  <view class="cu-item vin-mimicry-normal">
+    <view class="title">
+      <view class="text-cut">
+        <text style="color:#00ccff">创建</text>
+        团队
+      </view>
+    </view>
+    <view class="content">
+      <view class="desc">
+        <view class="text-content">创建团队,组织,作为管理员,邀请你的朋友加入</view>
+      </view>
+    </view>
+  </view>
+  <text class="vin-team-arrow-tag lg cuIcon-right"></text>
+</view>
+<view style="height:18vh;position: relative;" class="cu-card margin article {{isCard?'no-card':''}}">
+  <view class="cu-item vin-mimicry-normal">
+    <view class="title">
+      <view class="text-cut">
+        <text style="color:#00ccff">加入</text>
+        团队
+      </view>
+    </view>
+    <view class="content">
+      <view class="desc">
+        <view class="text-content">是否有你种意的团队,快加入他们吧!</view>
+      </view>
+    </view>
+  </view>
+  <text class="vin-team-arrow-tag lg cuIcon-right"></text>
+</view>
