@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/teahouse/teahouse",
+    "pages/team/team",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "STUOnline",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#b8b894",
+    "selectedColor": "#53ff1a",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/tabbar/basics.png",
+        "selectedIconPath": "./static/tabbar/basics_cur.png"
+      },
+      {
+        "pagePath": "pages/teahouse/teahouse",
+        "text": "茶馆",
+        "iconPath": "./static/tabbar/component.png",
+        "selectedIconPath": "./static/tabbar/component_cur.png"
+      },
+      {
+        "pagePath": "pages/team/team",
+        "text": "团队",
+        "iconPath": "./static/tabbar/plugin.png",
+        "selectedIconPath": "./static/tabbar/plugin_cur.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人",
+        "iconPath": "./static/tabbar/about.png",
+        "selectedIconPath": "./static/tabbar/about_cur.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,1 @@
+<button bindtap='mylogin'>微信登录</button>
